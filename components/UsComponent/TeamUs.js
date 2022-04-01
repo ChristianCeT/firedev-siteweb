@@ -4,7 +4,7 @@ import Profile from "./profile";
 
 const TeamUs = () => {
   return (
-    <div className="w-full text-center font-bold font-body py-10 mt-14">
+    <div className="w-full text-center font-bold font-body py-10 mt-14 bg-blackPrimary">
       <div className="flex-col items-center justify-center">
         <h1 className="text-rosePrimary text-4xl">Nuestro Equipo</h1>
         <p className="text-indigoPrimary text-2xl max-w-xl mx-auto mt-6">

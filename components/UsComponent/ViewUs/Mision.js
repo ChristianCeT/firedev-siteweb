@@ -4,10 +4,10 @@ import group_uno from "../../../assets/about_us/Group_uno.svg";
 
 const Mision = () => {
   return (
-    <div className="flex w-full justify-center">
+    <div className="flex w-full justify-center bg-blackPrimary">
       <div className="w-1/2 text-center font-body m-auto">
-        <h1 className="text-rosePrimary text-4xl">MISIÓN</h1>
-        <p className="text-indigoPrimary font-bold text-2xl px-7 mt-5">
+        <h1 className="text-orangePrimary text-4xl">MISIÓN</h1>
+        <p className="text-whitePrimary font-bold text-2xl px-7 mt-5">
           Comercializar los diferentes tipos de proyectos tecnológicos para
           brindar un servicio de automatización de procesos para los diferentes
           tipos de empresas en lima.

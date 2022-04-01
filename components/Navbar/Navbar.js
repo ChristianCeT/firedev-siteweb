@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import logo from "../../assets/svg/logo.svg";
+import logo from "../../assets/img/logoTemporary.png";
 import Image from "next/image";
 
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   const [mostrar, setMostrar ] = useState(false);
   
   return (
-    <nav className="w-screen z-40 flex flex-col sm:flex-row items-center justify-around sm:items-baseline text-center bg-indigoPrimary">
+    <nav className="w-screen z-40 flex flex-col sm:flex-row items-center justify-around sm:items-baseline text-center bg-blackPrimary">
       <Link href="/">
         <a className="hover:cursor-pointer">
           <div className="h-20 w-20">
@@ -19,25 +19,25 @@ const Navbar = () => {
       </Link>
       <div className="hidden sm:flex text-white font-body font-bold items-center">
         <Link href="#">
-          <a className="mx-3 transition-colors hover:text-rosePrimary">
+          <a className="mx-3 transition-colors hover:text-orangePrimary">
             SERVICIOS
           </a>
         </Link>
 
         <Link href="#">
-          <a className="mx-3 transition-colors  hover:text-rosePrimary">
+          <a className="mx-3 transition-colors  hover:text-orangePrimary">
             PROYECTOS
           </a>
         </Link>
 
         <Link href="/about_us">
-          <a className="mx-3 transition-colors  hover:text-rosePrimary">
+          <a className="mx-3 transition-colors  hover:text-orangePrimary">
             NOSOTROS
           </a>
         </Link>
 
         <Link href="#">
-          <a className="mx-3 transition-colors hover:text-rosePrimary">
+          <a className="mx-3 transition-colors hover:text-orangePrimary">
             CLIENTES
           </a>
         </Link>
@@ -54,25 +54,25 @@ const Navbar = () => {
         {mostrar && (
         <div className="flex sm:hidden flex-col text-white font-bold">
           <Link href="#">
-            <a className="mx-3 my-2 transition-colors hover:text-rosePrimary">
+            <a className="mx-3 my-2 transition-colors hover:text-orangePrimary">
               SERVICIOS
             </a>
           </Link>
 
           <Link href="#">
-            <a className="mx-3 my-2 transition-colors  hover:text-rosePrimary">
+            <a className="mx-3 my-2 transition-colors  hover:text-orangePrimary">
               PROYECTOS
             </a>
           </Link>
 
           <Link href="/about_us">
-            <a className="mx-3 my-2 transition-colors  hover:text-rosePrimary">
+            <a className="mx-3 my-2 transition-colors  hover:text-orangePrimary">
               NOSOTROS
             </a>
           </Link>
 
           <Link href="#">
-            <a className="mx-3 my-2 transition-colors hover:text-rosePrimary">
+            <a className="mx-3 my-2 transition-colors hover:text-orangePrimary">
               CLIENTES
             </a>
           </Link> 

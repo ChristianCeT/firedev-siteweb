@@ -10,7 +10,7 @@ const Service = () => {
   return (
     <div className="h-[65vh] flex flex-col justify-start mt-[7rem]">
       <div className="relative">
-        <div className=" mx-auto w-[200px] h-[200px] bg-indigoPrimary rounded-full absolute top-[12%] right-[34%] sm:right-[35%] md:right-[44%] md:h-[400px] md:w-[400px] lg:h-[520px] lg:w-[520px]">
+        <div className=" mx-auto w-[200px] h-[200px] bg-blackPrimary rounded-full absolute top-[12%] right-[34%] sm:right-[35%] md:right-[44%] md:h-[400px] md:w-[400px] lg:h-[520px] lg:w-[520px]">
           <h1 className=" text-whitePrimary text-[10px]  text-center font-medium mt-7 md:text-[25px] ">
             HERRAMIENTAS
           </h1>
@@ -21,7 +21,7 @@ const Service = () => {
             </h1>
           </div>
         </div>
-        <div className="mx-auto w-[200px] h-[200px] bg-rosePrimary rounded-full  absolute top-[15%] right-[8%] sm:right-[20%] md:right-[20%] md:h-[400px] md:w-[400px] lg:h-[520px] lg:w-[520px] 2xl:right-[28%]">
+        <div className="mx-auto w-[200px] h-[200px] bg-orangePrimary rounded-full  absolute top-[15%] right-[8%] sm:right-[20%] md:right-[20%] md:h-[400px] md:w-[400px] lg:h-[520px] lg:w-[520px] 2xl:right-[28%]">
           <h1 className="text-whitePrimary text-[10px]  text-center font-medium mt-7 md:text-[25px]">
             DESARROLLO
           </h1>

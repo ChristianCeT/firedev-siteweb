@@ -32,9 +32,9 @@ const Team = () => {
   ];
 
   return (
-    <div className="w-full h-screen ">
+    <div className="w-full h-screen bg-blackPrimary">
       <div className=" w-full flex flex-col justify-center items-center">
-        <h1 className="text-[#FFA6EB] font-medium text-4xl">Nuestro Equipo</h1>
+        <h1 className="text-orangePrimary font-medium text-4xl">Nuestro Equipo</h1>
         <div className="w-[300px] mt-6 md:w-[450px]">
           <p className="text-indigoPrimary font-medium text-base justify-items-center">
             Somos un equipo muy unido de diseñadores y desarrolladores

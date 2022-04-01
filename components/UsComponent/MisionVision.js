@@ -5,8 +5,10 @@ import Vision from "../UsComponent/ViewUs/Vision";
 const MisionVision = () => {
   return (
     <>
+    <div className="bg-blackPrimary">
       <Mision></Mision>
       <Vision></Vision>
+      </div>
     </>
   );
 };

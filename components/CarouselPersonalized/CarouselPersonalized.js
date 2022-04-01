@@ -6,7 +6,7 @@ import { carouselData } from "../../helpers/CarouselData";
 const CarouselPersonalized = () => {
   return (
     <div className="">
-      <h1 className="text-indigoPrimary text-4xl text-center font-semibold mb-9">
+      <h1 className="text-orangePrimary text-4xl text-center font-semibold mb-9">
         PROYECTOS
       </h1>
       <Carousel showThumbs={false} className="px-5 md:px-32">
